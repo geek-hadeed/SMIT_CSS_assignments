@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff; /* Set default text color for better readability */
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Vertically center items in the navbar */
+  background-color: #0004ff;
+  height: 55px;
+  padding: 0 20px; /* Add horizontal padding to the navbar */
+}
+
+.navbar-title {
+  justify-content: left;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em; /* Increase font size for better visibility */
+}
+
+.navbar-links {
+  text-align: center;
+}
+
+.navbar-links a {
+  color: rgb(0, 255, 255);
+  padding: 15px 20px; /* Add padding for better spacing */
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, border 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-links a:hover {
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content img {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.contact-us{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}

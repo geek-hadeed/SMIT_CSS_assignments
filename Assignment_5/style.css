@@ -315,10 +315,11 @@ textarea {
 
 #footer img {
     display: inline-block;
-    margin-bottom: -20px;
-    width: 400px;
-    height: 400px;
+    margin-top: 20px;
+    width: 280px;
+    height: 350px;
     margin-left: 150px;
+    border-radius: 20px;
 }
 
 #footer p {

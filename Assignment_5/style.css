@@ -177,7 +177,7 @@ h3 {
     width: 250px;
     height: 150px;
     position: absolute;
-    left: 18vh;
+    left: 22vh;
     border-radius: 15px;
     top: 57vh;
 }
@@ -315,7 +315,7 @@ textarea {
 
 #footer img {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     width: 400px;
     height: 400px;
     margin-left: 150px;

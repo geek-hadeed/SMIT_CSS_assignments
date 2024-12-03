@@ -34,8 +34,13 @@ body {
 /* Navigation styles */
 nav {
     padding: 15px 0;
+    position: relative;
+    /* Position relative for z-index */
+    z-index: 10;
+    /* Ensure nav is above other content */
 }
 
+/* Navigation Content */
 .nav-content {
     display: flex;
     justify-content: space-between;
@@ -45,28 +50,51 @@ nav {
     margin: 25px auto;
 }
 
+/* Logo */
 .logo {
     color: aliceblue;
     font-size: 26px;
     font-weight: bold;
     cursor: pointer;
+    transition: color 0.3s;
+    /* Smooth transition for color */
 }
 
+.logo:hover {
+    color: #252525;
+    /* Change logo color on hover */
+}
+
+
+/* Navigation Links */
 .nav-links a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     margin-left: 35px;
     font-size: 16px;
     position: relative;
-    transition: color 0.3s, padding 0.3s;
-    /* Smooth transition */
+    transition: color 0.3s, padding 0.3s, transform 0.3s;
+    /* Added transform transition */
 }
 
+/* Hover Effect for Links */
 .nav-links a:hover {
     color: white;
     border-bottom: 3px solid #000000;
     padding-bottom: 5px;
     /* Slight padding for hover effect */
+    transform: translateY(-2px);
+    /* Slight upward movement on hover */
+}
+
+/* Hover Effect for Links */
+.nav-links a:hover {
+    color: white;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 5px;
+    /* Slight padding for hover effect */
+    transform: translateY(-2px);
+    /* Slight upward movement on hover */
 }
 
 /* Hero section styles */
